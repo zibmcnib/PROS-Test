@@ -10,14 +10,14 @@
 ez::Drive chassis (
   // Left Chassis Ports (negative port will reverse it!)
   //   the first port is used as the sensor
-  {-9, -17, -16}
+  {-1, -3, -5}
 
   // Right Chassis Ports (negative port will reverse it!)
   //   the first port is used as the sensor
-  ,{5, 11, 12}
+  ,{10, 9, 8}
 
   // IMU Port
-  ,4
+  ,11
 
   // Wheel Diameter (Remember, 4" wheels without screw holes are actually 4.125!)
   ,3.25
